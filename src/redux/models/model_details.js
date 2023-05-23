@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-
+import URL from '../../https/https';
 // Actions
 const FETCH_BIKE_DETAILS = 'final_capstone_frontend/models/FETCH_BIKE_DETAILS';
 
@@ -7,7 +7,7 @@ const FETCH_BIKE_DETAILS = 'final_capstone_frontend/models/FETCH_BIKE_DETAILS';
 const fetchDetailsAsync = createAsyncThunk(
   FETCH_BIKE_DETAILS,
   async (id) => {
-    const modelURL = `https://bikes-db.onrender.com/api/v1/bikes/${id}`;
+    const modelURL = `${URL}/bikes/${id}`;
     const response = await fetch(modelURL);
     const output = await response.json();
     return output;

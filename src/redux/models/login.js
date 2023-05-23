@@ -1,4 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import URL from '../../https/https';
 
 // functions
 const handleError = (res) => {
@@ -18,8 +19,6 @@ const handleCreateError = async (res) => {
 const FIND_USER = 'final_capstone_frontend/models/FIND_USER';
 const CREATE_USER = 'final_capstone_frontend/models/CREATE_USER';
 
-// URL
-const URL = 'https://bikes-db.onrender.com/api/v1';
 // Async function (Function Action Creator)
 const findUserAsync = createAsyncThunk(
   FIND_USER,
