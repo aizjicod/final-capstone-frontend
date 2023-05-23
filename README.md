@@ -6,13 +6,13 @@ The user can signup or login, then it will be redirected to the home page after 
 
 ## Live demo
 
-- [Ducati Rentals](https://ducati-rentals.netlify.app/)
+- [Ducati Rentals](ducati-rentals-aiziji.netlify.app)
 <hr>
 
 ## Api
 This app is done with a backend developed by our team.
 - [Demo](https://bikes-db.onrender.com/api-docs/index.html) 
-- [Source code](https://github.com/AbrahaKahsay/final-capstone-backend) 
+- [Source code](https://github.com/aizjicod/final-capstone-backend) 
 ## Built With
  ![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
