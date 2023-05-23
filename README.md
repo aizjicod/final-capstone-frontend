@@ -6,7 +6,7 @@ The user can signup or login, then it will be redirected to the home page after 
 
 ## Live demo
 
-- [Ducati Rentals](ducati-rentals-aiziji.netlify.app)
+- [Ducati Rentals](https://ducati-rentals-aiziji.netlify.app/)
 <hr>
 
 ## Api
