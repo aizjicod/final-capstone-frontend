@@ -1,1 +1,2 @@
-export default 'https://bikes-db.onrender.com/api/v1';
+export default 'https://ducati-rentals-jg4q.onrender.com/api/v1';
+
