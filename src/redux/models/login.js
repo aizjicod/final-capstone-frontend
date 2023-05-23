@@ -24,7 +24,6 @@ const findUserAsync = createAsyncThunk(
   FIND_USER,
   async (data) => {
     try {
-      console.log(URL);
       const response = await fetch(`${URL}/login`, {
         method: 'POST',
         headers: {

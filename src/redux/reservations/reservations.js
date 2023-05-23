@@ -1,4 +1,4 @@
-import URL from '../../https/https'
+import URL from '../../https/https';
 // Actions
 const RESERVATIONS_FETCHED = 'RESERVATIONS_FETCHED';
 const RESERVATIONS_ADDED = 'RESERVATIONS_ADDED';

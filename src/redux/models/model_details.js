@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import URL from '../../https/https'
+import URL from '../../https/https';
 // Actions
 const FETCH_BIKE_DETAILS = 'final_capstone_frontend/models/FETCH_BIKE_DETAILS';
 
